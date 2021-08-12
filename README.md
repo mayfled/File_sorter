@@ -37,7 +37,7 @@ To try the sample file we can write the following command on terminal
 ### Installation Summary
 
 ```
-git clone https://github.com/mayfled/Virus-total-scanner.git
+git clone https://github.com/mayfled/File_sorter.git
 cd Virus-total-scanner
 pip install -r requirements.txt
 python3 Virus-Total-Fortinet.py -f <hash.txt>
