@@ -18,13 +18,6 @@ If that resulted in an error then we can install pip using the following command
 *if you are presented with a prompt enter 'y' for yes*
 
 ### Step 2:
->Now we want to install all the dependencies to do this enter the following command
-
-```pip install -r requirements.txt```
-
-***make sure you are in the directory where you downloaded all the files***
-
-### Step 3:
 >Now we can run the file, to run the file we can enter the following command
 
 ```python3 Automation_File_Sorter.py Sample/```
