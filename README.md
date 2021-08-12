@@ -12,7 +12,8 @@ Run the python file in the parent directory of all the files.
 Ensure you have pip working on this machine, to verify you can just type in pip
 If that resulted in an error then we can install pip using the following command
 
-```sudo apt install python3-pip```
+```sudo apt-get install python3-pip```
+```sudo apt-get install git```
 
 *if you are presented with a prompt enter 'y' for yes*
 
@@ -26,19 +27,29 @@ If that resulted in an error then we can install pip using the following command
 ### Step 3:
 >Now we can run the file, to run the file we can enter the following command
 
-```python3 Automation_File_Sorter.py \Path_to_files```
+```python3 Automation_File_Sorter.py Sample/```
 
 ***for demo I have included a sample folder which includes all the files***
 
 To try the sample file we can write the following command on terminal
 
-```python3 Automation_File_Sorter.py \Sample```
+```python3 Automation_File_Sorter.py Sample/```
 
 ### Installation Summary
 
 ```
 git clone https://github.com/mayfled/File_sorter.git
-cd Virus-total-scanner
+cd File_sorter
 pip install -r requirements.txt
-python3 Virus-Total-Fortinet.py -f <hash.txt>
+python3 Automation_File_Sorter.py Sample/
+cd Sample
+
+--------------
+Folder construction
+    - YY
+        - MM
+            - DD
+                - TS
+                - RS
+                - FS
 ```
