@@ -2,7 +2,7 @@
 Title: Automation File Sorter
 Author: Naeem Patel
 Date: 2021-08-11
-Software Link: https://github.com/mayfled/Virus-total-scanner
+Software Link: https://github.com/mayfled/File_sorter
 '''
 
 import os
